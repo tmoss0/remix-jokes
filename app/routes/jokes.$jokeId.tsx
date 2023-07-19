@@ -1,12 +1,10 @@
 import { json, redirect } from '@remix-run/node';
 import type { LoaderArgs, ActionArgs, V2_MetaFunction } from '@remix-run/node';
 import {
-  Link,
   useLoaderData,
   useParams,
   isRouteErrorResponse,
   useRouteError,
-  Form,
 } from '@remix-run/react';
 
 import { JokeDisplay } from '~/components/joke';
